@@ -1,0 +1,15 @@
+{
+    "name": "sicet7/faro-config",
+    "license": "MIT",
+    "require": {
+        "sicet7/faro-core": "^0.0.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sicet7\\Faro\\": "src/"
+        },
+        "files": [
+            "module.php"
+        ]
+    }
+}
